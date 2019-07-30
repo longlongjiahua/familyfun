@@ -1,0 +1,4 @@
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"title":"test1","content":"xyz"}' \
+  http://localhost:8109/api/notes
